@@ -31,5 +31,11 @@ export function get<T>(url, data): Promise<T> {
   return request(url, "GET", data);
 }
 export function post<T>(url, data): Promise<T> {
-  return request(url, "Post", data);
+  return request(url, "POST", data);
+}
+export function del<T>(url, data): Promise<T> {
+  return request(url, "DEL", data);
+}
+export function put<T>(url, data): Promise<T> {
+  return request(url, "PUT", data);
 }

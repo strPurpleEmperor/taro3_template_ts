@@ -2,7 +2,7 @@ const path = require("path");
 
 const config = {
   projectName: "taro_template",
-  date: "2022-4-22",
+  date: "2023-2-9",
   designWidth: 750,
   deviceRatio: {
     640: 2.34 / 2,
@@ -18,6 +18,7 @@ const config = {
     "@/types": path.resolve(__dirname, "..", "src/types"),
     "@/asset": path.resolve(__dirname, "..", "src/asset"),
     "@/context": path.resolve(__dirname, "..", "src/context"),
+    "@/images": path.resolve(__dirname, "..", "src/images"),
   },
   sourceRoot: "src",
   outputRoot: "dist",
