@@ -7,5 +7,6 @@ module.exports = {
     "import/first": 0,
     "import/no-commonjs": 0,
     "prettier/prettier": "error",
+    "jsx-quotes": 0,
   },
 };

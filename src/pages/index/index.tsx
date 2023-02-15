@@ -6,7 +6,7 @@ import { BASE_COLOR } from "@/global/const";
 
 const Index: FC = () => {
   return (
-    <View className='index' style={{ color: BASE_COLOR }}>
+    <View className="index" style={{ color: BASE_COLOR }}>
       hello world
     </View>
   );
