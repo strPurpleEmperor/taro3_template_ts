@@ -1,5 +1,5 @@
 import { get } from "@/utils/request";
 
-export function getSome(params: any) {
-  return get("url", params);
+export function getAuth({ code, appid }: { code: string; appid: string }) {
+  return get("", { code, appid });
 }
